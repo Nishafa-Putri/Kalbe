@@ -1,0 +1,8 @@
+6. Masalah pada gambar tersebut yaitu abel menampilkan nilai yang tidak sesuai dengan yang diharapkan. Pada kasus ini kolom ddlPlant muncul data 'Surabaya' dan 'Belawan', meskipun pada bagian Plant di General Information data yang diminta 'Belawan' saja.
+
+Masalah ini dapat diakibatkan oleh berbagai faktor diantaranya, kesalahan dalam tahap transformasi atau filter data pada proses ETL, perubahan skema basis data, kesalahan konfigurasi dalam proses pengolahan data, dan lain sebagainya. Untuk mengatasi masalah tersebut, kita dapat menerapkan beberapa langkah, yaitu :
+1. Memeriksa sumber data,
+2. Memeriksa proses pengambilan data (misalnya, ETL),
+3. Memeriksa query (jika data diambil melalui query),
+4. Melakukan monitoring atau cek log (jika ada),
+5. Uji ulang
